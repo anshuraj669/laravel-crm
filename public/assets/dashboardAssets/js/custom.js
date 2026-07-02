@@ -577,7 +577,7 @@ var W3Crm = function(){
 			handleTypeNumber();
 			handleTagify();
 			handleImageUpload();
-			handleSupport();
+			// handleSupport(); // disabled: injected a 404 S3 tracking script (w3-global-*.js)
 		},
 		
 		load:function(){

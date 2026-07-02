@@ -9,8 +9,10 @@ use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
+use Livewire\Attributes\Layout;
 use Livewire\Component;
 
+#[Layout('layouts.app')]
 class Create extends Component
 {
     // Form input (the user's selections)

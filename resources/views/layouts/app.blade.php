@@ -47,10 +47,10 @@
         <link rel="stylesheet" href="{{ asset('assets/dashboardAssets/vendor/dropzone/dropzone.min.css') }}" />
         <link rel="stylesheet" href="{{ asset('assets/dashboardAssets/vendor/star-rating/star-rating-svg.css') }}" />
 
-        <!-- Start - Style CSS (classed links are toggled by styleSwitcher.js) -->
-        <link class="main-plugins" href="{{ asset('assets/dashboardAssets/css/plugins.css') }}" rel="stylesheet" />
-        <link class="main-css" href="{{ asset('assets/dashboardAssets/css/style.css') }}" rel="stylesheet" />
-        <link class="main-switcher" href="{{ asset('assets/dashboardAssets/css/switcher.css') }}" rel="stylesheet" />
+        <!-- Start - Style CSS -->
+        <link href="{{ asset('assets/dashboardAssets/css/plugins.css') }}" rel="stylesheet" />
+        <link href="{{ asset('assets/dashboardAssets/css/style.css') }}" rel="stylesheet" />
+        <link href="{{ asset('assets/dashboardAssets/css/switcher.css') }}" rel="stylesheet" />
 
 
     </head>
@@ -115,9 +115,8 @@
         <script src="{{ asset('assets/dashboardAssets/js/custom.js') }}"></script>
         <script src="{{ asset('assets/dashboardAssets/js/deznav-init.js') }}"></script>
 
-        <!-- Script For demo Styleswitcher -->
-        <script src="{{ asset('assets/dashboardAssets/js/styleSwitcher.js') }}"></script>
-        <script src="{{ asset('assets/dashboardAssets/js/demo.js') }}"></script>
+        {{-- Demo theme-switcher removed: styleSwitcher.js/demo.js rewrote the stylesheet
+             hrefs to relative paths that 404 on Laravel, wiping out the theme styles. --}}
 
         <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"0931814f84b94398b852d3ac91b5f293","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
     </body>
