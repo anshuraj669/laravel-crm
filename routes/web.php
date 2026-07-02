@@ -8,6 +8,11 @@ Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
     ->name('dashboard');
 
+Route::group(['prefix'=>'user', 'middleware' => ['auth', 'verified']], function () {
+    Route::get('/list', \App\Livewire\User\Index::class)->name('user.list');
+    Route::get('/create', \App\Livewire\User\Create::class)->name('user.create');
+});
+
 Route::view('profile', 'profile')
     ->middleware(['auth'])
     ->name('profile');

@@ -27,7 +27,6 @@ class UserSeeder extends Seeder
 
         User::factory(50)->create([
             'phone' => fake()->phoneNumber(),
-            'role' => 'user',
         ]);
     }
 }

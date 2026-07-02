@@ -13,7 +13,7 @@ class Index extends Component
     public function render(): \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\View\View
     {
         return view('livewire.user.index', [
-            'users'=> User::where('role', '=', 'user')->paginate(10),
+            'users'=> User::where('role', '!=', 'admin')->paginate(10),
         ]);
     }
 }
