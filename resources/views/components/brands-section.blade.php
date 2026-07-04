@@ -7,42 +7,42 @@
         <div class="cs_slider_in">
             <div class="cs_brands_list">
                 <div class="cs_center">
-                    <img src="{{ asset('assets/img/brand-1.svg') }}" alt="Brand logo">
+                    <img src="{{ asset('assets/homeAssets/img/brand-1.svg') }}" alt="Brand logo">
                 </div>
                 <div class="cs_center">
-                    <img src="{{ asset('assets/img/brand-2.svg') }}" alt="Brand logo">
+                    <img src="{{ asset('assets/homeAssets/img/brand-2.svg') }}" alt="Brand logo">
                 </div>
                 <div class="cs_center">
-                    <img src="{{ asset('assets/img/brand-3.svg') }}" alt="Brand logo">
+                    <img src="{{ asset('assets/homeAssets/img/brand-3.svg') }}" alt="Brand logo">
                 </div>
                 <div class="cs_center">
-                    <img src="{{ asset('assets/img/brand-4.svg') }}" alt="Brand logo">
+                    <img src="{{ asset('assets/homeAssets/img/brand-4.svg') }}" alt="Brand logo">
                 </div>
                 <div class="cs_center">
-                    <img src="{{ asset('assets/img/brand-5.svg') }}" alt="Brand logo">
+                    <img src="{{ asset('assets/homeAssets/img/brand-5.svg') }}" alt="Brand logo">
                 </div>
                 <div class="cs_center">
-                    <img src="{{ asset('assets/img/brand-6.svg') }}" alt="Brand logo">
+                    <img src="{{ asset('assets/homeAssets/img/brand-6.svg') }}" alt="Brand logo">
                 </div>
             </div>
             <div class="cs_brands_list">
                 <div class="cs_center">
-                    <img src="{{ asset('assets/img/brand-1.svg') }}" alt="Brand logo">
+                    <img src="{{ asset('assets/homeAssets/img/brand-1.svg') }}" alt="Brand logo">
                 </div>
                 <div class="cs_center">
-                    <img src="{{ asset('assets/img/brand-2.svg') }}" alt="Brand logo">
+                    <img src="{{ asset('assets/homeAssets/img/brand-2.svg') }}" alt="Brand logo">
                 </div>
                 <div class="cs_center">
-                    <img src="{{ asset('assets/img/brand-3.svg') }}" alt="Brand logo">
+                    <img src="{{ asset('assets/homeAssets/img/brand-3.svg') }}" alt="Brand logo">
                 </div>
                 <div class="cs_center">
-                    <img src="{{ asset('assets/img/brand-4.svg') }}" alt="Brand logo">
+                    <img src="{{ asset('assets/homeAssets/img/brand-4.svg') }}" alt="Brand logo">
                 </div>
                 <div class="cs_center">
-                    <img src="{{ asset('assets/img/brand-5.svg') }}" alt="Brand logo">
+                    <img src="{{ asset('assets/homeAssets/img/brand-5.svg') }}" alt="Brand logo">
                 </div>
                 <div class="cs_center">
-                    <img src="{{ asset('assets/img/brand-6.svg') }}" alt="Brand logo">
+                    <img src="{{ asset('assets/homeAssets/img/brand-6.svg') }}" alt="Brand logo">
                 </div>
             </div>
         </div>

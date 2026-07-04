@@ -6,7 +6,7 @@
                 <div class="col-xl-5 col-lg-4 col-md-7">
                     <div class="cs_footer_widget cs_text_widget">
                         <div class="cs_brand cs_mb_10 wow fadeInUp">
-                            <img src="{{ asset('assets/img/logo.svg') }}" alt="Logo">
+                            <img src="{{ asset('assets/homeAssets/img/logo.svg') }}" alt="Logo">
                         </div>
                         <p class="mb-0">Our analytics application turns raw data into actionable insights, empowering businesses to make data-driven decisions and enhance performance.</p>
                     </div>

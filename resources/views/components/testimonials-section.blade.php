@@ -12,7 +12,7 @@
                     <div class="cs_testimonial cs_style_1 cs_radius_15 position-relative">
                         <div class="cs_avatar cs_style_1 cs_mb_41">
                   <span class="cs_avatar_icon cs_center cs_radius_100">
-                  <img src="{{ asset('assets/img/avatar-1.jpg') }}" alt="Avatar">
+                  <img src="{{ asset('assets/homeAssets/img/avatar-1.jpg') }}" alt="Avatar">
                   </span>
                             <div class="cs_avatar_info">
                                 <h3 class="cs_fs_21 fw-normal">Sara Thomas</h3>
@@ -31,7 +31,7 @@
                     <div class="cs_testimonial cs_style_1 cs_radius_15 position-relative">
                         <div class="cs_avatar cs_style_1 cs_mb_41">
                   <span class="cs_avatar_icon cs_center cs_radius_100">
-                  <img src="{{ asset('assets/img/avatar-2.jpg') }}" alt="Avatar">
+                  <img src="{{ asset('assets/homeAssets/img/avatar-2.jpg') }}" alt="Avatar">
                   </span>
                             <div class="cs_avatar_info">
                                 <h3 class="cs_fs_21 fw-normal">Wizard Bona</h3>
@@ -50,7 +50,7 @@
                     <div class="cs_testimonial cs_style_1 cs_radius_15 position-relative">
                         <div class="cs_avatar cs_style_1 cs_mb_41">
                   <span class="cs_avatar_icon cs_center cs_radius_100">
-                  <img src="{{ asset('assets/img/avatar-3.jpg') }}" alt="Avatar">
+                  <img src="{{ asset('assets/homeAssets/img/avatar-3.jpg') }}" alt="Avatar">
                   </span>
                             <div class="cs_avatar_info">
                                 <h3 class="cs_fs_21 fw-normal">Jhon Kubera</h3>
@@ -69,7 +69,7 @@
                     <div class="cs_testimonial cs_style_1 cs_radius_15 position-relative">
                         <div class="cs_avatar cs_style_1 cs_mb_41">
                   <span class="cs_avatar_icon cs_center cs_radius_100">
-                  <img src="{{ asset('assets/img/avatar-4.jpg') }}" alt="Avatar">
+                  <img src="{{ asset('assets/homeAssets/img/avatar-4.jpg') }}" alt="Avatar">
                   </span>
                             <div class="cs_avatar_info">
                                 <h3 class="cs_fs_21 fw-normal">Emily Loren</h3>
@@ -88,7 +88,7 @@
                     <div class="cs_testimonial cs_style_1 cs_radius_15 position-relative">
                         <div class="cs_avatar cs_style_1 cs_mb_41">
                   <span class="cs_avatar_icon cs_center cs_radius_100">
-                  <img src="{{ asset('assets/img/avatar-4.jpg') }}" alt="Avatar">
+                  <img src="{{ asset('assets/homeAssets/img/avatar-4.jpg') }}" alt="Avatar">
                   </span>
                             <div class="cs_avatar_info">
                                 <h3 class="cs_fs_21 fw-normal">AI King</h3>

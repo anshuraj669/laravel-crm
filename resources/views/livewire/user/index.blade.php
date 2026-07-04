@@ -1195,56 +1195,56 @@
                                 @endcan
 
                             </div>
-{{--                            <div class="card-header d-block pb-2">--}}
-{{--                                <form class="row align-items-end">--}}
-{{--                                    <div class="col-xxl-2 col-xl-3 col-sm-6 col-lg-4 mb-3">--}}
-{{--                                        <label class="form-label">Search</label>--}}
-{{--                                        <input type="text" class="form-control" id="searchFilter">--}}
-{{--                                    </div>--}}
-{{--                                    <div class="col-xxl-2 col-xl-3 col-sm-6 col-lg-4 mb-3">--}}
-{{--                                        <label class="form-label">Status</label>--}}
-{{--                                        <select id="statusFilter" class="selectpicker form-select">--}}
-{{--                                            <option value="">All</option>--}}
-{{--                                            <option value="Active">Active</option>--}}
-{{--                                            <option value="Inactive">Inactive</option>--}}
-{{--                                            <option value="Pending">Pending</option>--}}
-{{--                                        </select>--}}
-{{--                                    </div>--}}
-{{--                                    <div class="col-xxl-2 col-xl-3 col-sm-6 col-lg-4 mb-3">--}}
-{{--                                        <label class="form-label">Department</label>--}}
-{{--                                        <select id="departmentFilter" class="selectpicker form-select">--}}
-{{--                                            <option value="">All</option>--}}
-{{--                                            <option value="Computer Science">Computer Science</option>--}}
-{{--                                            <option value="Web Designer">Web Designer</option>--}}
-{{--                                        </select>--}}
-{{--                                    </div>--}}
-{{--                                    <div class="col-xxl-2 col-xl-3 col-sm-6 col-lg-4 mb-3">--}}
-{{--                                        <label class="form-label">Gender</label>--}}
-{{--                                        <select id="genderFilter" class="selectpicker form-select">--}}
-{{--                                            <option value="">All</option>--}}
-{{--                                            <option value="Male">Male</option>--}}
-{{--                                            <option value="Female">Female</option>--}}
-{{--                                        </select>--}}
-{{--                                    </div>--}}
-{{--                                    <div class="col-xxl-2 col-xl-3 col-sm-6 col-lg-4 mb-3">--}}
-{{--                                        <label class="form-label">Location</label>--}}
-{{--                                        <select id="locationFilter" class="selectpicker form-select">--}}
-{{--                                            <option value="">All</option>--}}
-{{--                                            <option value="Delhi">Delhi</option>--}}
-{{--                                            <option value="Bengaluru">Bengaluru</option>--}}
-{{--                                            <option value="Hyderabad">Hyderabad</option>--}}
-{{--                                            <option value="Mumbai">Mumbai</option>--}}
-{{--                                            <option value="Ahmedabad">Ahmedabad</option>--}}
-{{--                                            <option value="Kolkata">Kolkata</option>--}}
-{{--                                            <option value="Chennai">Chennai</option>--}}
-{{--                                        </select>--}}
-{{--                                    </div>--}}
-{{--                                    <div class="col-xxl-2 col-xl-3 col-sm-6 col-lg-4 mb-3">--}}
-{{--                                        <button id="applyFilter" class="btn btn-primary" type="button">Apply</button>--}}
-{{--                                        <button id="resetFilter" class="btn btn-danger light ms-2" type="button">Reset</button>--}}
-{{--                                    </div>--}}
-{{--                                </form>--}}
-{{--                            </div>--}}
+                            <div class="card-header d-block pb-2">
+                                <form class="row align-items-end">
+                                    <div class="col-xxl-2 col-xl-3 col-sm-6 col-lg-4 mb-3">
+                                        <label class="form-label">Search</label>
+                                        <input type="text" class="form-control" id="searchFilter">
+                                    </div>
+                                    <div class="col-xxl-2 col-xl-3 col-sm-6 col-lg-4 mb-3">
+                                        <label class="form-label">Status</label>
+                                        <select id="statusFilter" class="selectpicker form-select">
+                                            <option value="">All</option>
+                                            <option value="Active">Active</option>
+                                            <option value="Inactive">Inactive</option>
+                                            <option value="Pending">Pending</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xxl-2 col-xl-3 col-sm-6 col-lg-4 mb-3">
+                                        <label class="form-label">Department</label>
+                                        <select id="departmentFilter" class="selectpicker form-select">
+                                            <option value="">All</option>
+                                            <option value="Computer Science">Computer Science</option>
+                                            <option value="Web Designer">Web Designer</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xxl-2 col-xl-3 col-sm-6 col-lg-4 mb-3">
+                                        <label class="form-label">Gender</label>
+                                        <select id="genderFilter" class="selectpicker form-select">
+                                            <option value="">All</option>
+                                            <option value="Male">Male</option>
+                                            <option value="Female">Female</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xxl-2 col-xl-3 col-sm-6 col-lg-4 mb-3">
+                                        <label class="form-label">Location</label>
+                                        <select id="locationFilter" class="selectpicker form-select">
+                                            <option value="">All</option>
+                                            <option value="Delhi">Delhi</option>
+                                            <option value="Bengaluru">Bengaluru</option>
+                                            <option value="Hyderabad">Hyderabad</option>
+                                            <option value="Mumbai">Mumbai</option>
+                                            <option value="Ahmedabad">Ahmedabad</option>
+                                            <option value="Kolkata">Kolkata</option>
+                                            <option value="Chennai">Chennai</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xxl-2 col-xl-3 col-sm-6 col-lg-4 mb-3">
+                                        <button id="applyFilter" class="btn btn-primary" type="button">Apply</button>
+                                        <button id="resetFilter" class="btn btn-danger light ms-2" type="button">Reset</button>
+                                    </div>
+                                </form>
+                            </div>
                             <div class="card-body table-card-body px-0 pt-0 pb-2">
                                 <div class="table-responsive">
                                     <table id="employeesTable" class="table">
@@ -1268,8 +1268,8 @@
                                                 <td><span>{{ $user->email }}</span></td>
                                                 <td><span>{{ $user->phone }}</span></td>
                                                 <td><span>{{ $user->role }}</span></td>
-                                                <td><span>{{ $user->department }}</span></td>
-                                                <td><span>{{ $user->designation }}</span></td>
+                                                <td><span>{{ $user->department?->name }}</span></td>
+                                                <td><span>{{ $user->designation?->name }}</span></td>
                                                 <td><span>{{ $user->joining_date }}</span></td>
                                             </tr>
                                         @endforeach

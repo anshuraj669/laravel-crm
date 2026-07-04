@@ -4,7 +4,7 @@
                 <div class="cs_main_header_in">
                     <div class="cs_main_header_left">
                         <a class="cs_site_branding" href="{{ route("welcome") }}" aria-label="Home page link">
-                            <img src="{{ asset('assets/img/logo.svg') }}" alt="Logo">
+                            <img src="{{ asset('assets/homeAssets/img/logo.svg') }}" alt="Logo">
                         </a>
                     </div>
                     <div class="cs_main_header_center">
